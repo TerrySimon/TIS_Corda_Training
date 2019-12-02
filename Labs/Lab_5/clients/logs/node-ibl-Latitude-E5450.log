@@ -1,0 +1,37 @@
+[INFO ] 2019-11-17T14:44:17,814 [main] RPCClient - Startup took 2097 msec
+[INFO ] 2019-11-17T14:44:18,310 [main] Client - [NodeInfo(addresses=[localhost:10005], legalIdentitiesAndCerts=[O=PartyA, L=London, C=GB], platformVersion=4, serial=1574000649771), NodeInfo(addresses=[localhost:10002], legalIdentitiesAndCerts=[O=Notary, L=London, C=GB], platformVersion=4, serial=1574000650077), NodeInfo(addresses=[localhost:10008], legalIdentitiesAndCerts=[O=PartyB, L=New York, C=US], platformVersion=4, serial=1574000646880)]
+[INFO ] 2019-11-17T15:12:22,336 [main] ServerKt - Starting ServerKt on ibl-Latitude-E5450 with PID 32538 (started by ibl in /home/ibl/Desktop/[TIS_Final]_Corda_Code/unpackage/cordapp-template-kotlin/clients)
+[INFO ] 2019-11-17T15:12:22,344 [main] ServerKt - No active profile set, falling back to default profiles: default
+[INFO ] 2019-11-17T15:12:22,419 [main] AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f27ea3: startup date [Sun Nov 17 22:12:22 ICT 2019]; root of context hierarchy
+[INFO ] 2019-11-17T15:12:24,338 [main] TomcatWebServer - Tomcat initialized with port(s): 10050 (http)
+[INFO ] 2019-11-17T15:12:24,363 [main] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-10050"]
+[INFO ] 2019-11-17T15:12:24,378 [main] StandardService - Starting service [Tomcat]
+[INFO ] 2019-11-17T15:12:24,379 [main] StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+[INFO ] 2019-11-17T15:12:24,395 [localhost-startStop-1] AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+[INFO ] 2019-11-17T15:12:24,630 [localhost-startStop-1] [/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-11-17T15:12:24,631 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2217 ms
+[INFO ] 2019-11-17T15:12:24,828 [localhost-startStop-1] ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[INFO ] 2019-11-17T15:12:24,833 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 2019-11-17T15:12:24,834 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 2019-11-17T15:12:24,834 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO ] 2019-11-17T15:12:24,835 [localhost-startStop-1] FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 2019-11-17T15:12:27,126 [main] RPCClient - Startup took 1613 msec
+[INFO ] 2019-11-17T15:12:27,292 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-11-17T15:12:27,774 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f27ea3: startup date [Sun Nov 17 22:12:22 ICT 2019]; root of context hierarchy
+[INFO ] 2019-11-17T15:12:28,040 [main] RequestMappingHandlerMapping - Mapped "{[/templateendpoint],methods=[GET],produces=[text/plain]}" onto private final java.lang.String com.template.webserver.Controller.templateendpoint()
+[INFO ] 2019-11-17T15:12:28,062 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2019-11-17T15:12:28,063 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2019-11-17T15:12:28,125 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-11-17T15:12:28,126 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2019-11-17T15:12:28,287 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 2019-11-17T15:12:28,765 [main] AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+[INFO ] 2019-11-17T15:12:28,793 [main] Http11NioProtocol - Starting ProtocolHandler ["http-nio-10050"]
+[INFO ] 2019-11-17T15:12:28,811 [main] NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 2019-11-17T15:12:28,860 [main] TomcatWebServer - Tomcat started on port(s): 10050 (http) with context path ''
+[INFO ] 2019-11-17T15:12:28,868 [main] ServerKt - Started ServerKt in 8.365 seconds (JVM running for 9.641)
+[INFO ] 2019-11-17T15:14:03,781 [http-nio-10050-exec-1] [/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO ] 2019-11-17T15:14:03,784 [http-nio-10050-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2019-11-17T15:14:03,819 [http-nio-10050-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+[INFO ] 2019-11-17T15:16:44,360 [Thread-4] AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@f27ea3: startup date [Sun Nov 17 22:12:22 ICT 2019]; root of context hierarchy
+[INFO ] 2019-11-17T15:16:44,362 [Thread-4] AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+[WARN ] 2019-11-17T15:16:44,364 [Thread-4] CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'nodeRPCConnection': kotlin.UninitializedPropertyAccessException: lateinit property rpcConnection has not been initialized
